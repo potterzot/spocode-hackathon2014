@@ -28,8 +28,6 @@ class PongPaddle(Widget):
             vel = bounced * 1.1
             ball.velocity = vel.x, vel.y + offset
 
-class PongButton(Widget):
-
 class PongGame(Widget):
     ball = ObjectProperty(None)
     player1 = ObjectProperty(None)

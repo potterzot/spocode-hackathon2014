@@ -1,0 +1,39 @@
+
+<Human>:
+  size: 5, 5
+  canvas:
+    Rectangle:
+      pos: self.pos
+      size: self.size
+
+<StartMenu>:
+  x: root.center_x
+  y: root.center_y
+
+<FindMeGame>:
+  player1: player_1
+  startmenu: start_menu
+  #player2: player_2
+  
+  Human:
+    id: player_1
+    x: root.x
+    center_y: root.center_y
+    
+  #Human:
+  #  id: player_2
+  #  x: root.width-5
+  #  center_y: root.center_y
+   
+  StartMenu:
+    id: start_menu
+    x: root.center_x
+    y: root.center_y
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+
+<Bouncer>:
+  size: 10, 10
+  canvas:
+    Ellipse:
+      pos: self.pos
+      size: self.size
+
+
+<Balloon>:
+  size: 40, 10
+  canvas:
+    Ellipse:
+      pos: self.pos
+      size: self.size
+
+<BouncerGame>:
+  bouncer: bouncer
+  balloon: balloon
+
+  Bouncer:
+    id: bouncer
+    x: 30
+    center_y: root.top/2 
+
+  Balloon:
+    id: balloon
+    x: 30
+    center_y: 20
